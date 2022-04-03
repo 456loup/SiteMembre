@@ -1,0 +1,118 @@
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+body{
+    display:flex; 
+    margin:0; 
+    padding:0; 
+    background-color:azure; 
+    background-color: orange;
+    opacity:1.0;
+}
+
+/* side nav  */
+
+.sidenav{
+    background-color: black;
+    position:fixed; 
+    height: 100%;
+    width: 20vw; 
+    display:grid; 
+    grid-template-rows: 1fr 6fr;
+    grid-template-columns: 1fr;
+}
+
+.sidenav ul li{
+    grid-row-start: 0;
+    list-style: none;
+    text-decoration: none;
+    color:white; 
+    cursor:pointer; 
+    padding:50px; 
+    margin-top:45px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidenav ul{
+
+}
+/* contenu nav  */
+
+.contenu_nav{
+    display:grid; 
+    width:100%; 
+    height:30vw; 
+    grid-template-columns: 20vw auto;
+}
+
+.contenu{
+    grid-column-start: 2;
+    height: 30vw ; 
+}
+
+/*************** PARTIE BOITE NOIRE AFFICHAGE DOSSIER FICHIER ************/
+
+.boiteFichier{
+    background-color: #96675D;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%; 
+    height: 90%;
+    display:block; 
+    border:solid rosybrown 5px; 
+}
+
+ #jesuis{
+    font-family: 'Courier New', Courier, monospace;
+    margin:5% auto auto auto; 
+    display:block;
+    width:100%; 
+    border-radius:15px; 
+}
+
+
+.boiteFichier ul{
+    margin-left:15px; 
+    display:block; 
+}
+.boiteFichier li{
+    cursor:pointer; 
+}
+
+.boiteFichier  li:hover{
+    background-color:lightblue; 
+}
+
+
+#pasAfficher{
+    visibility: inherit;
+}
+
+
+/*
+.boiteFichier ul li{
+    padding:10px; 
+    margin:10px; 
+    background-color: lightcoral; 
+    justify-content: left;
+}
+*/
+
+
+/* Formulaire d ajout */
+
+#formulaireAjout{
+    background-color:black; 
+    margin:30px; 
+    padding:10px; 
+    width:80%; 
+    display:block; 
+    margin-left:auto; 
+    margin-right: auto;
+    color:white; 
+    border-radius: 10px;
+}

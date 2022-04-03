@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="service.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <aside class="sidenav">
+        <h1> sidenav </h1>
+        <nav>
+            <ul>
+                <li class="onglet" id="ongletHebergement"> Hebergement fichier  </li>
+                <li class="onglet" id="ongletEmail"> Email </li>
+            </ul>
+        </nav>
+    </aside>
+    <div class="contenu_nav"> 
+        <div class="contenu" id="contenuHebergement">
+
+            <h1> Votre espace de fichier monsieur Negueloua  </h1> 
+
+
+            <form id="formulaireAjout">
+
+                <label> Chemin du Fichier/Dossier </label> 
+                <input type="text" name="cheminFichier"> 
+                <label> Choix du type Fichier/Dossier</label>
+                <select name="fichierOuDossier">
+                    <option value="fichier"> fichier </option>
+                    <option value="dossier"> dossier </option>
+                </select>
+                <input type="file" name="image" />
+                <button type="submit"> Upload</button>
+                
+            </form>
+
+            <div class="boiteFichier">
+                <ul id="ulPrincipale"> 
+                    <li class="fichierDossier"> loup.png </li>
+                    <li class="fichierDossier"> loup.png </li>
+                    <li class="fichierDossier"> loup.png </li>
+                    <li class="fichierDossier"> loup.png </li>
+                    <ul> 
+                        <li> machin chose </li>
+                        <li> machin chose </li>
+                        <ul id="pasAfficher"> 
+                            <li> machin chose </li>
+                            <li> machin chose </li>
+                            <ul> 
+                                <li> machin chose </li>
+                                <li> machin chose </li>
+                                <ul> 
+                                    <li> machin chose </li>
+                                    <li> machin chose </li>
+                                 
+                                </ul>
+                            </ul>
+                        </ul>
+                        <ul> 
+                            <li> machin chose </li>
+                            <li> machin chose </li>
+                        </ul>
+                    </ul>
+                </ul>
+                <ul>
+                    <li> JE SUIS LA </li>
+                </ul>
+            </div>
+
+
+
+
+        </div>
+        <div class="contenu" id="contenuEmail">
+            <h1> JE SUIS LA PARTIE 2 </h1> 
+
+            <p> Cette partie est en cours de maintenance </p>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="js/service.js">  </script>
+</html>
